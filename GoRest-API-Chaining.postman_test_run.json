@@ -1,0 +1,119 @@
+{
+	"id": "993d24dd-3b9f-4dcf-8f15-60a38e40eea2",
+	"name": "GoRest-API-Chaining",
+	"timestamp": "2024-08-24T09:18:23.972Z",
+	"collection_id": "37041522-81ebc12b-7c80-4888-9e2a-c4869727478f",
+	"folder_id": 0,
+	"environment_id": "37041522-a66837fa-ee99-4a35-8ff9-a0f3769b6c2f",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-24T09:18:20.895Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4f8cc28b-bb36-4ba2-b830-c3a82997d3b0",
+			"name": "CreateUser",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 484,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				484
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b2f9f1ad-438d-4fcb-8875-e08face77727",
+			"name": "Get User Details",
+			"url": "https://gorest.co.in/public/v2/users/7357768",
+			"time": 226,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Values of json fields": true
+			},
+			"testPassFailCounts": {
+				"Values of json fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				226
+			],
+			"allTests": [
+				{
+					"Values of json fields": true
+				}
+			]
+		},
+		{
+			"id": "81c60da4-6604-4bac-b2d7-8613a179e899",
+			"name": "Update User",
+			"url": "https://gorest.co.in/public/v2/users/7357768",
+			"time": 260,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				260
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9a8ed3f7-a57a-4b82-b279-a07787388c16",
+			"name": "Delete User",
+			"url": "https://gorest.co.in/public/v2/users/7357768",
+			"time": 372,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				372
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1342,
+	"collection": {
+		"requests": [
+			{
+				"id": "4f8cc28b-bb36-4ba2-b830-c3a82997d3b0",
+				"method": "POST"
+			},
+			{
+				"id": "b2f9f1ad-438d-4fcb-8875-e08face77727",
+				"method": "GET"
+			},
+			{
+				"id": "81c60da4-6604-4bac-b2d7-8613a179e899",
+				"method": "PUT"
+			},
+			{
+				"id": "9a8ed3f7-a57a-4b82-b279-a07787388c16",
+				"method": "DELETE"
+			}
+		]
+	}
+}
