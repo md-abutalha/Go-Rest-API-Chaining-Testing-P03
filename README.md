@@ -54,7 +54,7 @@ pm.environment.set("name_env", username);
 
 ![App Screenshot](https://raw.githubusercontent.com/md-abutalha/Go-Rest-API-Chaining-Testing-P03/master/go-rest-project-screenshots/get_user_details_01.png)
 
-## Test Script Details for the Get User Details 
+## Test Script Details for the Get User  
 
 This test script validates specific JSON fields in the API response by checking that the id, name, and email fields match the corresponding environment variables (userid_env, name_env, mail_env) stored in Postman's QA environment.
 
@@ -69,7 +69,7 @@ pm.expect(jsonData.email).to.eql(pm.environment.get("mail_env"));
 });
 ```
 
-## Update user Details
+## Update User Details
 
 ![App Screenshot](https://raw.githubusercontent.com/md-abutalha/Go-Rest-API-Chaining-Testing-P03/master/go-rest-project-screenshots/update_user_details_01.png)
 
