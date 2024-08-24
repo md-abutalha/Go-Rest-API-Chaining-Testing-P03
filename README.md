@@ -1,8 +1,7 @@
 
 # Go-Rest-API-Chaining-Testing-P03
 
-Testing suite for the Go REST API Chaining project, covering Create, Retrieve, Update, and Delete (CRUD) operations. This repository includes well-documented test scripts to ensure API functionality and reliability. 
-![Postman Logo](https://assets.postman.com/postman-docs/postman-logo-stacked.png)
+Testing suite for the Go REST API Chaining project, covering Create, Retrieve, Update, and Delete (CRUD) operations. This repository includes well-documented test scripts to ensure API functionality and reliability. # Postman
 
 
 
