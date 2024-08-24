@@ -115,10 +115,3 @@ This repository provides a testing suite for the Go REST API Chaining project, c
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/md-abutalha)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abu-talha1/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/abu_talha0x)
-
-# License
-
-This repository is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-
-You may not use this repository for commercial purposes, and you may not copy or modify the content. For more details, see the [license agreement](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
